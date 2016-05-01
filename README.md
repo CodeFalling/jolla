@@ -8,7 +8,7 @@ jolla is a pure API server framework,and it is based on the gevent.
 ## QUICKSTART
 add a `app.py`,and write dowm:
 
-```
+```python
 from jolla import server,SessionError,plugins,session,HTTP404Error
 
 session = session()
